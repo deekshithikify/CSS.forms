@@ -1,0 +1,32 @@
+form{
+    background-color: rgb(118, 332, 234);
+    border: 5px solid;
+    border-color: blue;
+    padding-left: 20px;
+    padding-top: 30px;
+    background-image: url("MDS pictures.jpg");
+}
+input[type=text] {
+    border-color: red;
+    background-color: aqua;
+    width:70%;
+}
+    input[type=password] {
+    border-color: red;
+    background-color: beige;
+    height: 60px;
+}
+
+input[type=reset]{
+    background-color: aqua;  
+}
+
+input[type=submit]{
+    background-color: rgb(128, 131, 95);
+}
+
+input[type=submit]:hover{
+    background-color: yellow;
+    color: red;
+}
+ 
